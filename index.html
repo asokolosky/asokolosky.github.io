@@ -98,7 +98,8 @@ code{font-size:.85em;font-family:ui-monospace,Menlo,Consolas,monospace}
 .demo .play{font-size:1.6rem;color:var(--muted);line-height:1}
 .demo .ph{color:var(--muted);font-size:.9rem;font-style:italic}
 .demo.vid{border-style:solid;padding:12px}
-.demo.vid iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:6px;background:#000}
+.demos:has(.vid){grid-template-columns:1fr}
+.demo.vid iframe{width:100%;aspect-ratio:4/3;border:0;border-radius:6px;background:#000}
 
 /* results */
 .res{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin:16px 0}
